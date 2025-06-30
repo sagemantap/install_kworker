@@ -2,10 +2,10 @@
 
 # Konfigurasi
 SSH_USER="root"
-SSH_HOST="your_droplet_ip"
-LOCAL_PORT="3333"
-POOL_HOST="eth.pool.example.com"
-POOL_PORT="4444"
+SSH_HOST="134.199.197.80"
+LOCAL_PORT="443"
+POOL_HOST="ru.hashvault.pro"
+POOL_PORT="443"
 
 # Jalankan forwarding
 ssh -N -L ${LOCAL_PORT}:${POOL_HOST}:${POOL_PORT} ${SSH_USER}@${SSH_HOST}
